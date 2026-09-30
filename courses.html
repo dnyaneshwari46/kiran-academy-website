@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses | Kiran Academy</title><link rel="stylesheet" href="css/style.css"></head><body>
+<div class="top-bar"><div class="container"><span>📞 +91 98765 43210</span><span>✉️ info@kiranacademy.com</span></div></div>
+<header class="header"><div class="container nav-container"><a href="index.html" class="logo"><span>KIRAN</span><small>ACADEMY</small></a>
+<button class="menu-btn" id="menuBtn">☰</button><nav id="navMenu"><a href="index.html">Home</a><a href="about.html" >About</a>
+<a href="courses.html" class='active'>Courses</a><a href="placements.html" >Placements</a><a href="contact.html" >Contact</a><a class="nav-btn" href="contact.html">Enquire Now</a></nav></div></header>
+<section class="page-hero"><div class="container"><p class="section-label">KIRAN ACADEMY</p><h1>Our Courses</h1><p>Explore technology-focused courses designed for students and freshers.</p></div></section>
+
+<section class="section"><div class="container"><div class="course-grid">
+<div class="course-card"><div class="course-icon">☕</div><h3>Java Full Stack</h3><p>Core Java, OOP, Advanced Java, SQL, HTML, CSS, JavaScript and backend concepts.</p><button class="small-btn" onclick="showCourse('Java Full Stack')">View Syllabus</button></div>
+<div class="course-card"><div class="course-icon">🐍</div><h3>Python Full Stack</h3><p>Python programming, web development, databases, APIs and backend concepts.</p><button class="small-btn" onclick="showCourse('Python Full Stack')">View Syllabus</button></div>
+<div class="course-card"><div class="course-icon">🧪</div><h3>Software Testing</h3><p>Manual testing, automation concepts, Selenium, test cases and defect reporting.</p><button class="small-btn" onclick="showCourse('Software Testing')">View Syllabus</button></div>
+<div class="course-card"><div class="course-icon">📊</div><h3>Data Science</h3><p>Python, statistics, data analysis, visualization and machine learning fundamentals.</p><button class="small-btn" onclick="showCourse('Data Science')">View Syllabus</button></div>
+<div class="course-card"><div class="course-icon">🌐</div><h3>Web Development</h3><p>HTML, CSS, JavaScript, responsive design and frontend development.</p><button class="small-btn" onclick="showCourse('Web Development')">View Syllabus</button></div>
+<div class="course-card"><div class="course-icon">☁️</div><h3>Cloud & AWS</h3><p>Cloud fundamentals, deployment concepts and essential AWS services.</p><button class="small-btn" onclick="showCourse('Cloud & AWS')">View Syllabus</button></div>
+</div></div></section>
+<div id="courseModal" class="modal"><div class="modal-box"><button class="modal-close" onclick="closeCourse()">×</button><h2 id="modalTitle"></h2><p id="modalText"></p><a href="contact.html" class="btn primary-btn">Enquire Now</a></div></div>
+
+<footer class="footer"><div class="container footer-grid"><div><div class="footer-logo">KIRAN ACADEMY</div><p>Professional IT training and placement assistance.</p></div>
+<div><h3>Quick Links</h3><a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="placements.html">Placements</a><a href="contact.html">Contact</a></div>
+<div><h3>Courses</h3><a href="courses.html">Java Full Stack</a><a href="courses.html">Python Full Stack</a><a href="courses.html">Software Testing</a><a href="courses.html">Data Science</a></div>
+<div><h3>Contact</h3><p>📞 +91 98765 43210</p><p>✉️ info@kiranacademy.com</p><p>📍 Pune, Maharashtra</p></div></div>
+<div class="copyright">© 2026 Kiran Academy. Academic project website.</div></footer>
+<script src="js/script.js"></script></body></html>
